@@ -4,7 +4,7 @@
 }
 
 header {
-    background: #888;
+    background: #444444;
     height: 95px;
 }
 
@@ -88,6 +88,12 @@ article p {
 article button {
     height: 45px;
     width: 160px;
+}
+
+article button:hover {
+    background: #222;
+    color: #eee;
+    transition: 350ms;
 }
 
 footer {
